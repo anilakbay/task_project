@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Project</title>
+    <link rel="stylesheet" href="/src/index.css" />
+  </head>
+  <body>
+    <div id="root" class="container">
+      <div class="task-create">
+        <!-- Başlık için etiket ve input -->
+        <div class="form-group">
+          <label for="task-title" class="task-label">Başlık</label>
+          <input type="text" id="task-title" class="task-input" />
+        </div>
+
+        <!-- Açıklama için etiket ve textarea -->
+        <div class="form-group">
+          <label for="task-description" class="task-label">Açıklama</label>
+          <textarea id="task-description" class="task-textarea"></textarea>
+        </div>
+
+        <!-- Oluştur butonu -->
+        <button class="task-button">Oluştur</button>
+      </div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

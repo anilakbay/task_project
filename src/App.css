@@ -1,0 +1,17 @@
+/* Ana Uygulama Stili */
+.App {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  max-width: 600px;
+  margin: 20px auto;
+  font-family: var(--font-family);
+}
+
+/* Başlık */
+.App h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--color-text);
+}
